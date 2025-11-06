@@ -1,25 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class WaterFloat : MonoBehaviour {
-
-
-	public float WaterHeight = 15.5f;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
-		if (transform.position.y < WaterHeight) {
-			//Vector3 newposition = Vector3 (transform.position.x, WaterHeight, transform.position.y);
-			//transform.position.y = newposition;
-
-			transform.position = new Vector3 (transform.position.x, WaterHeight, transform.position.z);
-		}
-		
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b537676cd856484120892c0abfcc2ef383ebd4a4b8da2a9364dcd8aa06578f5
+size 561
